@@ -5,9 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bonanza Satrangi</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+   
     
 </head>
 
@@ -16,11 +18,10 @@
   <div class="alert alert-danger" role="alert">
     <strong text-align="justify">Free shipping on all orders above PKR 2000</strong> 
   </div>
-
+<section id="navbar">
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg bg-body-light ">
     <div class="container-fluid">
-      <!-- <a class="navbar-brand" href="#">Welcome to Attiristan</a> -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -38,8 +39,7 @@
                   <h1 class="modal-title fs-5" id="exampleModalToggleLabel">signin</h1>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <br>
-
+            
 
                 <!-- sign in form -->
                 
@@ -192,11 +192,11 @@
 
     </div>
   </nav>
-
+</section>
 <hr>
 
 
-
+<section id="header">
   <!-- carousel -->
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -221,31 +221,33 @@
   <video width="100%" muted="" controls="" loop="" src="https://cdn.shopify.com/videos/c/o/v/48e5587e18ba4757b950abfebc5e89bf.mp4" class="object-fit-cover"
     autoplay></video>
   </section>
+</section>
 
 
-  <!-- <div data-aos="fade-up"
-     data-aos-duration="3000"></div> -->
-    <h3 align="center">TOP PICKS</h3>
+
+<section id="main">
+    <h3 data-aos="zoom-in" align="center" >TOP PICKS</h3>
   <!-- grids -->
 
   <!-- women -->
+  <h3 data-aos="zoom-in" align="center">WOMEN</h3>
   <section id="women">
   <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
-      
-      <div class="card h-100" >
+    <div class="col" >
+      <div class="card h-100" data-aos="fade-up">
+        <!-- data-mdb-toggle="animation" data-mdb-animation-start="onScroll" data-mdb-animation="fade-in" style="animation-duration: 500ms;" -->
         <img src="./dress1 w.webp" class="card-img-top" alt="dress1">
         <p align="center"> GREEN LAWN 2 PIECE <br>(SS2343) <br>PKR 5,680</p>
       </div>
     </div>
     <div class="col">
-      <div class="card h-100">
+      <div class="card h-100" data-aos="fade-up">
         <img src="./dress2 w.webp" class="card-img-top" alt="dress2">
         <p align="center"> WHITE KHADDAR 3 PIECE <br>(AK8383) <br>PKR 6,480</p>
       </div>
     </div>
     <div class="col">
-      <div class="card h-100">
+      <div class="card h-100" data-aos="fade-up">
         <img src="./dress3 w.webp" class="card-img-top" alt="dress3">
         <p align="center"> SYMMERTRY 3 PIECE <br>(AK4499) <br>PKR 2,680</p>
     </div>
@@ -254,22 +256,23 @@
 <br>
 
 <!-- men -->
+<h3 data-aos="zoom-in" align="center">MEN</h3>
 <section id="men">
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
-      <div class="card h-100">
+      <div class="card h-100" data-aos="zoom-in-up" data-aos-duration="3000">
         <img src="./dress1 m.webp" class="card-img-top" alt="dress1">
         <p align="center"> MAHEER <br>(SS2343) <br><del> PKR 3,680</del><span class="text-danger"> PKR 2,680 </span></p>
       </div>
     </div>
     <div class="col">
-      <div class="card h-100">
+      <div class="card h-100" data-aos="zoom-in-up" data-aos-duration="3000">
         <img src="./dress2 m.webp" class="card-img-top" alt="dress2">
         <p align="center"> FEROZA <br>(AK8383) <br><del> PKR 3,280</del><span class="text-danger"> PKR 2,624 </span></p>
       </div>
     </div>
     <div class="col">
-      <div class="card h-100">
+      <div class="card h-100" data-aos="zoom-in-up" data-aos-duration="3000">
         <img src="./dress3 m.webp" class="card-img-top" alt="dress3">
         <p align="center"> MN-BLUE-BLENDED-KURTA-SHALWAR <br>(AK4499) <br>PKR 6,680</p>
     </div>
@@ -279,26 +282,28 @@
 <br>
 
 <!-- perfumes -->
+<h3 data-aos="zoom-in" align="center">PERFUMES</h3>
 <section id="perfumes">
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
-      <div class="card h-100 ">
+      <div class="card h-100"  data-aos="flip-left" data-aos-duration="3000">
         <img src="./p1.webp" class="card-img-top" alt="perfume1">
         <p align="center"> LEGECY OF OUD <br>(SS2343) <br>PKR 5,680</p>
       </div>
     </div>
     <div class="col">
-      <div class="card h-100 ">
+      <div class="card h-100"  data-aos="flip-left" data-aos-duration="3000">
         <img src="./p2.webp" class="card-img-top" alt="perfume2">
         <p align="center"> DELILAH<br>(AK8383) <br>PKR 3,480</p>
       </div>
     </div>
     <div class="col">
-      <div class="card h-100 ">
+      <div class="card h-100"  data-aos="flip-left" data-aos-duration="3000">
         <img src="./p3.webp" class="card-img-top" alt="perfume3">
         <p align="center"> AMAL <br>(AK4499) <br>PKR 3,680</p>
     </div>
   </div>
+</section>
 </section>
 
 
@@ -359,6 +364,7 @@
 <p>&copy;Bonanza | All rights reserved | <strong><span class="text-danger">Cloned by Anila Jamil</span></strong> | <strong><span class="text-success">Using Bootstrap & Inline CSS</span></strong></p>
 </SEction>
 
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
     crossorigin="anonymous"></script>
@@ -367,10 +373,10 @@
     <!-- <div i class="bi bi-whatsapp"style="position: fixed;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
       <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
     </svg></div></i> -->
-
-    <!-- <script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
       AOS.init();
-    </script> -->
+    </script>
 </body>
 
 </html>
